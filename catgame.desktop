@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Games
+Comment=cat
+Exec=catishere.sh
+Icon=folder-orange
+Name=catgame
+Path=/usr/local/bin
+StartupNotify=true
+Terminal=false
+Type=Application
