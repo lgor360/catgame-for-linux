@@ -7,7 +7,5 @@
 4. перекинь скрипт catishere.sh в папку /usr/local/bin
 5. дай билетик файлу catgame.desktop в /home/ваше-имя/.local/share/applications
 6. разреши файлу catgame.desktop запускаться
-7. в файле catwanteat.sh во второй строке замени слово "name" на имя твоего пользователя
-8. поставь catwanteat.sh в автозагрузки
 
 готово! хорошей игры!
