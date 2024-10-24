@@ -16,6 +16,9 @@ case $MENU in
     1)
            if [ -f foodforcat.txt ]
            then
+           cd /home/$U/yourcat
+           T=$(date --date="4 hour" +%s)
+           echo "$T" > time.txt
            kdialog --msgbox "вы покормили котёнка!" --title "catgame: еда"
            echo "|\   /|
 | \__/ |
@@ -50,7 +53,10 @@ case $MENU in
            ./menucat.sh
     ;;
     4)
-           kdialog --msgbox "catgame - тамогочи где ты ухаживаешь за своим котом. игра сделана в России в 2024-м году школьником. его зовут Игорь и на момент создания игры он уже был в 4-м классе. так же у него есть канал Игорь360. всё :D" --title "catgame: об игре"
+           kdialog --msgbox "catgame - тамогочи где ты ухаживаешь за своим котом.
+игра сделана в России в 2024-м году школьником. его зовут Игорь и на момент создания игры он уже был в 5-м классе. так же у него есть канал Игорь360.
+
+всё :D" --title "catgame: об игре"
            cd /home/$U/catgame
            ./menucat.sh
     ;;
